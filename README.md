@@ -1,7 +1,10 @@
 # Kafka-Flask-Recommendation-Engine
 
 
-## Create Kafka Topic called hepsiburada-kafka
+### 1-Create Kafka Topic called hepsiburada-kafka
+### 2-Get data from product.json and write to hepsiburada-kafka topic with python
+### 3-Get writed data from topic,add timestamp value and load into the new table called product_views and this product_views table is on data-db database
+### 4-Using product_views table, get last ten prouducts viewed and put these data to flask rest api
 
 ![lastviewed](https://user-images.githubusercontent.com/50598846/136380362-a31b9f2f-2b3c-4633-8bd7-21170a111171.png)
 
