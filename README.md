@@ -5,6 +5,7 @@
 ### 2-Get data from product.json and write to hepsiburada-kafka topic with python
 ### 3-Get writed data from topic,add timestamp value and load into the new table called product_views and this product_views table is on data-db database
 ### 4-Using product_views table, get last ten prouducts viewed and put these data to flask rest api
+### 5-Start flask-rest api on localhost:5000 ( http://localhost:5000/userviewInfo example url)
 
 ### 5-Example of last ten products viewed by used, you can reach this data from userviewInfo url
 ![lastviewed](https://user-images.githubusercontent.com/50598846/136380362-a31b9f2f-2b3c-4633-8bd7-21170a111171.png)
